@@ -5,13 +5,13 @@ const certificates = [
         title: "Laboratory Assistant: Programming",
         issuer: "Forum Asisten",
         year: "2025",
-        credentialUrl: "https://forumasisten.or.id/sertifikat/2901780122c5efa6e6c/show",
+        credentialUrl: "https://drive.google.com/file/d/1yWmBjqg4NtldOGrMVI1SW2LxcBBgXfn9/view?usp=sharing",
     },
     {
         title: "Laboratory Assistant: Web Programming",
         issuer: "Forum Asisten",
         year: "2025",
-        credentialUrl: "https://forumasisten.or.id/sertifikat/39317511252d680f935/show",
+        credentialUrl: "https://drive.google.com/file/d/15p2aV_32nGxI_Tuahj3CY3tXk9ftcfys/view?usp=sharing",
     },
     {
         title: "Laboratory Assistant: Advanced Programming",
