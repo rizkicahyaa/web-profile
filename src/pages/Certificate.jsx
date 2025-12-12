@@ -25,6 +25,12 @@ const certificates = [
         credentialUrl: "https://drive.google.com/file/d/1DOc5Qd518RZNcmmZJZu2KMn9PbRnsLtf/view?usp=sharing",
     },
     {
+        title: "Unlocking the Power of Data: Practical Introduction to Machine Learning",
+        issuer: "Dibimbing",
+        year: "2025",
+        credentialUrl: "https://drive.google.com/file/d/1PbD1WNdOtXSMwj0NLQyLweorCMJ9u2YM/view?usp=sharing",
+    },
+    {
         title: "Workshop Full Stack Developer HIMASI x BPC Amikom",
         issuer: "HIMASI x BPC Amikom",
         year: "2025",
