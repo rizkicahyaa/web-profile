@@ -43,6 +43,12 @@ const certificates = [
         credentialUrl: "https://drive.google.com/file/d/121g7uiIsBYLM0-u8Z5r9-CTW0wKVMmXB/view?usp=sharing",
     },
     {
+        title: 'Seminar Kreator "Behind The Scene: Membuat Konten Viral Berkualitas"',
+        issuer: "ASUS x Intel",
+        year: "2025",
+        credentialUrl: "https://drive.google.com/file/d/1PYoqbMpcma1o0bDp8c-kosqVOldzYUy5/view?usp=sharing",
+    },
+    {
         title: "Seminar Nasional Informatika 2025",
         issuer: "MSV Cinema, Universitas Amikom Yogyakarta",
         year: "2025",
