@@ -1,4 +1,4 @@
-const ProjectCard = ({ title, description, tech, link, delay, image }) => {
+const ProjectCard = ({ title, description, tech, link, demo, delay, image }) => {
     return (
         <div className="group relative h-full" data-aos="flip-left" data-aos-delay={delay}>
             <div className="bg-white rounded-3xl overflow-hidden shadow-xl border border-gray-100 transition-all duration-500 hover:shadow-2xl hover:-translate-y-4 hover:rotate-1 flex flex-col h-full">
@@ -18,9 +18,28 @@ const ProjectCard = ({ title, description, tech, link, delay, image }) => {
                             </span>
                         ))}
                     </div>
-                    <a href={link} target="_blank" rel="noopener noreferrer" className="self-start bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold px-6 py-3 rounded-full text-sm transition duration-300 hover:shadow-lg font-['Inter']">
-                        View Project
-                    </a>
+                    <div className="flex flex-wrap gap-3 mt-auto">
+                        {link && (
+                            <a
+                                href={link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold px-6 py-3 rounded-full text-sm transition duration-300 hover:shadow-lg font-['Inter']"
+                            >
+                                View Project
+                            </a>
+                        )}
+                        {demo && (
+                            <a
+                                href={demo}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="border border-purple-500 text-purple-600 font-semibold px-6 py-3 rounded-full text-sm transition duration-300 hover:bg-purple-50 font-['Inter']"
+                            >
+                                Demo
+                            </a>
+                        )}
+                    </div>
                 </div>
             </div>
         </div>
