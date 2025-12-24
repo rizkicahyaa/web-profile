@@ -14,10 +14,16 @@ const Projects = () => {
                     <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-pink-600 mx-auto"></div>
                 </div>
 
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto mb-20">
                     {projects.map((project, index) => (
                         <ProjectCard key={index} {...project} />
                     ))}
+                </div>
+
+                <div className="text-center">
+                    <a href="https://github.com/rizkicahyaa?tab=repositories" target="_blank" className="group relative px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-medium rounded-full overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 font-['Inter']">
+                        <span className="relative z-10">More? On my Github.</span>
+                    </a>
                 </div>
             </div>
         </section>
